@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+    // Get references to the menu items and their corresponding popup containers
+    const acadMenuItem = document.getElementById('acad');
+    const acadPopContainer = document.getElementById('acad-pop');
+
+    const addMenuItem = document.getElementById('add');
+    const addPopContainer = document.getElementById('add-pop');
+
+    const researchMenuItem = document.getElementById('research');
+    const researchPopContainer = document.getElementById('research-pop');
+
+    const campusMenuItem = document.getElementById('campus');
+    const campusPopContainer = document.getElementById('campus-pop');
+
+    // Function to show a popup container
+    function showPop(container) {
+        container.style.display = 'block';
+    }
+
+    // Function to hide a popup container
+    function hidePop(container) {
+        container.style.display = 'none';
+    }
+
+    // Add event listeners for each menu item and corresponding popup container
+    aboutMenuItem.addEventListener('mouseenter', () => showPop(aboutPopContainer));
+    aboutPopContainer.addEventListener('mouseleave', () => hidePop(aboutPopContainer));
+    aboutPopContainer.addEventListener('mouseenter', () => showPop(aboutPopContainer));
+
+    acadMenuItem.addEventListener('mouseenter', () => showPop(acadPopContainer));
+    acadPopContainer.addEventListener('mouseleave', () => hidePop(acadPopContainer));
+    acadPopContainer.addEventListener('mouseenter', () => showPop(acadPopContainer));
+
+    addMenuItem.addEventListener('mouseenter', () => showPop(addPopContainer));
+    addPopContainer.addEventListener('mouseleave', () => hidePop(addPopContainer));
+    addPopContainer.addEventListener('mouseenter', () => showPop(addPopContainer));
+
+    researchMenuItem.addEventListener('mouseenter', () => showPop(researchPopContainer));
+    researchPopContainer.addEventListener('mouseleave', () => hidePop(researchPopContainer));
+    researchPopContainer.addEventListener('mouseenter', () => showPop(researchPopContainer));
+
+    campusMenuItem.addEventListener('mouseenter', () => showPop(campusPopContainer));
+    campusPopContainer.addEventListener('mouseleave', () => hidePop(campusPopContainer));
+    campusPopContainer.addEventListener('mouseenter', () => showPop(campusPopContainer));
+});
+
+      // JavaScript solution to make the popup stay visible
+      document.addEventListener('DOMContentLoaded', function () {
+          const aboutMenuItem = document.getElementById('about');
+          const aboutPopContainer = document.getElementById('about-pop');
+
+          aboutMenuItem.addEventListener('mouseenter', () => {
+              aboutPopContainer.style.display = 'block';
+          });
+
+          aboutPopContainer.addEventListener('mouseleave', () => {
+              aboutPopContainer.style.display = 'none';
+          });
+
+          aboutPopContainer.addEventListener('mouseenter', () => {
+              aboutPopContainer.style.display = 'block';
+          });
+      });
+      document.addEventListener('DOMContentLoaded', function () {
+          const acadMenuItem = document.getElementById('acad');
+          const acadPopContainer = document.getElementById('acad-pop');
+
+          acadMenuItem.addEventListener('mouseenter', () => {
+              acadPopContainer.style.display = 'block';
+          });
+
+          acadPopContainer.addEventListener('mouseleave', () => {
+              acadPopContainer.style.display = 'none';
+          });
+
+          acadPopContainer.addEventListener('mouseenter', () => {
+              acadPopContainer.style.display = 'block';
+          });
+      });
+      document.addEventListener('DOMContentLoaded', function () {
+          const addMenuItem = document.getElementById('add');
+          const addtPopContainer = document.getElementById('add-pop');
+
+          addMenuItem.addEventListener('mouseenter', () => {
+            addPopContainer.style.display = 'block';
+          });
+
+          addPopContainer.addEventListener('mouseleave', () => {
+              addPopContainer.style.display = 'none';
+          });
+
+          addPopContainer.addEventListener('mouseenter', () => {
+              addPopContainer.style.display = 'block';
+          });
+      });
+
+      let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+  </script>
+</head>
+<body>
+<!-- love you god 
+love you papa mummy
+love you my papa mummy
+please help us with this project
+smooth ride expexted -->
+<div class="nav-bar">
+      <a href="https://www.google.com" id="pic">
+        <img src="color_logo.png" style="width: 450px;height: 85px;">
+      </a>
+</div>
+<div class="menu">
+  <p id="home" class="pmenu">HOME
+    <div id="home-pop">
+
+    </div>
+  </p>
+  <p id="about" class="pmenu">ABOUT US
+    <div id="about-pop">
+      <div id = "divofabout">
+        <a>Overview</a>
+        <br>
+        <a>Vision and Mission</a>
+        <br>
+        <a>Milestones</a>
+        <br>
+        <a>Governance</a>
+        <br>
+        <a>Leadership</a>
+        <br>
+        <a>Administrative Office</a>
+      </div>
+      <div id = "divofabout">
+        <a>Infrastructure</a>
+        <br>
+        <a>Sustainability</a>
+        <br>
+        <a>Community Outreach</a>
+        <br>
+        <a>True Green</a>
+        <br>
+        <a>Community Radio</a>
+        <br>
+        <a>News</a>
+      </div>
+      <div id = "divofabout3">
+        <a>Events</a>
+        <br>
+        <a>NIRF</a>
+        <br>
+        <a>MHRD</a>
+        <br>
+        <a>UGC</a>
+        <br>
+        <a>AICTE</a>
+        <br>
+        <a>Director</a>
+      </div>
+      </div>
+  </p>
+  <p id="acad" class="pmenu">ACADMICS
+    <div id="acad-pop">
+      <div id = "divofacad">
+        <a>Overview</a>
+        <br>
+        <a>Acadmic Regulation</a>
+        <br>
+        <a>Acadmic Council</a>
+      </div>
+      <div id = "divofacad">
+        <a>Programmes Offered</a>
+        <br>
+        <a>Curiculam</a>
+        <br>
+        <a>FFCS</a>
+      </div>
+      <div id = "divofacad3">
+        <a>Library</a>
+        <br>
+        <a>Schools</a>
+        <br>
+        <a>Feedback</a>
+      </div>
+    </div>
+  </p>
+  <p id="add" class="pmenu">ADMISSION
+    <div id="add-pop">
+      <div id = "divofacad">
+        <a>Overview</a>
+        <br>
+        <a>Programmes Offered</a>
+        <br>
+        <a>Undergraduate</a>
+      </div>
+      <div id = "divofacad">
+        <a>Postgraduate</a>
+        <br>
+        <a>Research</a>
+        <br>
+        <a>International</a>
+      </div>
+      <div id = "divofacad3">
+        <a>STARS</a>
+        <br>
+        <a>Fee Structure</a>
+        <br>
+        <a>Feedback</a>
+      </div>
+    </div>
+  </p>
+  <p id="research" class="pmenu">REASEARCH
+    <div id="research-pop">
+      <div id = "divofacad">
+        <a>Overview</a>
+        <br>
+        <a>Acadmic Research</a>
+      </div>
+      <div id = "divofacad">
+        <a>Sponsered Research</a>
+        <br>
+        <a>IPR Cell</a>
+      </div>
+      <div id = "divofacad3">
+        <a>Research Center</a>
+        <br>
+        <a>Feedback</a>
+      </div>
+    </div>
+  </p>
+  <p id="campus" class="pmenu">CAMPUS LIFE
+    <div id="campus-pop">
+      <div id = "divofabout">
+        <a>Overview</a>
+        <br>
+        <a>Fests</a>
+        <br>
+        <a>Student Wellfare</a>
+        <br>
+        <a>Library</a>
+      </div>
+      <div id = "divofabout">
+        <a>Sports</a>
+        <br>
+        <a>Hostels</a>
+        <br>
+        <a>Health Facilities</a>
+        <br>
+        <a>Other Amenities</a>
+      </div>
+      <div id = "divofabout3">
+        <a>Green Campus</a>
+        <br>
+        <a>Policy</a>
+        <br>
+        <a>Core Value</a>
+        <br>
+        <a>Feedback</a>
+      </div>
+    </div>
+  </p>
+</div>
+
+<!-- first page  -->
+
+<!-- slideshow  -->
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="/new idea/VIT1.webp" style="width:100%">
+    <div class="text">VELLORE INSTITUTE OF TECHNOLOGY</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="/new idea/VIT2.webp" style="width:100%">
+    <div class="text">VELLORE INSTITUTE OF TECHNOLOGY</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="/new idea/VIT4.webp" style="width:100%">
+    <div class="text">VELLORE INSTITUTE OF TECHNOLOGY</div>
+  </div>
+  
+  <p class="prev" onclick="plusSlides(-1)">❮</p>
+  <p class="next" onclick="plusSlides(1)">❯</p>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+
+<!-- page2  -->
+<div class="page2">
+  <div class="topper">
+    <div class="topper-img"></div>
+  </div>
+  <div class="div2">
+    <div> MAJOR RECRUITERS</div>
+    <div class="div2-first">
+      <div class="div2-netflix">
+
+      </div></div>
+    <div id="verline"></div>
+    <div class="div2-first google" >
+      <div class="div2-google">
+      </div></div>
+
+    <div id="verline2"></div>
+    <div class="div2-first facebook" >
+      <div class="div2-facebook">
+      </div></div>
+    <div id="horline"></div>
+    <div class="div2-first micro" >
+      <div class="div2-micro">
+      </div></div>
+
+    <div id="verline"></div>
+    <div class="div2-first amazon" >
+      <div class="div2-amazon">
+      </div></div>
+
+    <div id="verline2"></div>
+    <div class="div2-first apple" >
+      <div class="div2-apple">
+      </div></div>
+
+  </div>
+
+  <div class="right1">
+    <div class="right1-img"></div>
+    <p id="place" style="font-size: 60px; position: relative; left: 140px;bottom: 80px; color: #4175A7;">49</p>
+    <p style="position: relative; left: 105px;bottom: 80px; font-size: 25px;"> YEARS OF </p>
+    <p style="position: relative; left: 125px;bottom: 80px; font-size: 25px;"> TRUST</p>
+  </div>
+  <div class="right2">
+    <div class="right2-img"></div>
+    <p id="place" style="font-size: 60px; position: relative; left: 70px;top: 15px; color: #4175A7;">372</p>
+    <p style="position: relative; left: 50px;top: 20px; font-size: 25px;"> ACRE LAND</p>
+
+  </div>
+  <div class="right3">
+    <div class="right3-img"></div>
+    <p style="font-size: 60px; position: relative; left: 130px;bottom: 110px; color: #4175A7; ">9th</p>
+    <p style="position: relative; left: 100px;bottom: 107px; font-size: 25px;">NIRF RANKING </p>
+  </div>
+  <div class="right4">
+    <div class="right4-img"></div>
+    <p id="place" style="font-size: 60px; position: relative; left: 122px; bottom: 100px; color: #4175A7;">1.02cr</p>
+    <p style="height: 28px; position: relative; left: 20px; bottom: 80px;font-size: 25px; text-align: center;">HIGHEST PLACEMENT</p>
+
+  </div>
+  <div class="left1">
+    <div class="left1-img"></div>
+    <p id="place" style="font-size: 60px; position: relative; left: 40px; top: 15px; color: #4175A7;">100%</p>
+    <p style="height: 28px; position: relative; top: 18px; text-align: center;">PLACEMENTS IN 2022-2023 SESSION</p>
+  </div>
+  <div class="left2">
+    <div class="left2-img"></div>
+    <p id="place" style="font-size: 60px; position: relative; left: 62px; bottom: 20px; color: #4175A7;">430</p>
+    <p style="height: 28px; position: relative; bottom: 20px; right: 25px; text-align: center; font-size: 21px;">INTERNATIONAL PARTNERS</p>
+  </div>
+  <div class="left3">
+    <div class="left3-img"></div>
+    <p id="place" style="font-size: 60px; position: relative; left: 60px; bottom: 80px; color: #4175A7;">4</p>
+    <p style="height: 28px; position: relative; bottom: 80px; right: 60px;text-align: center; font-size: 20px;">BRANCHES</p>
+  </div>
+</div>
+
+<!-- page-3  -->
+<div class="page3">
+  <div class="bulletin">
+    <h1 class="up-event">UPCOMING EVENTS</h1>
+    <div id="upcomingevent1">
+      <div class="upec1"></div>
+      <h3 class="upec1-name" >1 day Ne1eX workshop</h3>
+    </div>
+    <div id="upcomingevent2">
+      <div class="upec2"></div>
+      <h3 class="upec2-name" >Technoscape</h3>
+    </div>
+    <div class="board">
+      <h2 class="board-head">BULLETIN BOARD</h2>
+      <ul>
+        <li class="bubo">M.Arch. application 2023 - Apply Now</li>
+        <li class="bubo">38th Annual Convocation - 2023 Photos | Video </li>
+        <li class="bubo">Schools / Centre's - List of Research Guides - 2023</li>
+        <li class="bubo">Admission to MBA 2023 Fee Payment - Vellore | Chennai | Bhopal</li>
+        <li class="bubo">Admissions for 2 year M.Sc. / M.Des. / MSW-2023 - Apply Now </li>
+        <li class="bubo">Admissions for LLM Degree Programmes-2023 - Apply Now </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="welcome">
+ <h1 class="wel-head">WELCOME TO VIT</h1>
+  <p class="wel-matter">VIT was established with the aim of providing quality higher education on par with international standards. It persistently seeks and adopts innovative methods to improve the quality of higher education on a consistent basis.The campus has a cosmopolitan atmosphere with students from all corners of the globe. Experienced and learned teachers are strongly encouraged to nurture the students. The global standards set at VIT in the field of teaching and research spur us on in our relentless pursuit of excellence. In fact, it has become a way of life for us. The highly motivated youngsters on the campus are a constant source of pride. Our Memoranda of Understanding with various international universities are our major strength. They provide for an exchange of students and faculty and encourage joint research projects for the mutual benefit of these universities. Many of our students, who pursue their research projects in foreign universities, bring high quality to their work and esteem to India and have done us proud. With steady steps, we continue our march forward. We look forward to meeting you here at VIT.</p>
+  <button class="butto">Read More</button>
+</div>
+ <div class="wel-img"></div>
+</div>
+
+<!-- page=4 -->
+<div id="last">
+  <div class="column1">
+    <h2 class="col-head">ABOUT US</h2>
+    <br>
+    <p id="col-mat">Vision and Mission</p>
+    <br>
+    <p id="col-mat">Milestones</p>
+    <br>
+    <p id="col-mat">Governance</p>
+    <br>
+    <p id="col-mat">Leadership</p>
+    <br>
+    <p id="col-mat">Administrative Office</p>
+    <br>
+    <p id="col-mat">Infrastructure</p>
+    <br>
+    <p id="col-mat">Sustainability</p>
+    <br>
+    <p id="col-mat">Community Outreach</p>
+    <br>
+  </div>
+  <div class="column2">
+    <h2 class="col-head">ACADEMICS</h2>
+    <br>
+    <p id="col-mat">Acadmic Regulation</p>
+    <br>
+    <p id="col-mat">Acadmic Council</p>
+    <br>
+    <p id="col-mat">Programmes Offered</p>
+    <br>
+    <p id="col-mat">Curiculam</p>
+    <br>
+    <p id="col-mat">FFCS</p>
+    <br>
+    <p id="col-mat">Library</p>
+    <br>
+    <p id="col-mat">Schools</p>
+    <br><br>
+    <br>
+  </div>
+  <div class="column3">
+    <h2 class="col-head">ADDMISSION</h2>
+    <br>
+    <p id="col-mat">Programmes Offered</p>
+    <br>
+    <p id="col-mat">Undergraduate</p>
+    <br>
+    <p id="col-mat">Postgraduate</p>
+    <br>
+    <p id="col-mat">Research</p>
+    <br>
+    <p id="col-mat">Fee Structure</p>
+    <br><br><br><br><br><br><br>
+  </div>
+  <div class="column4">
+    <h2 class="col-head">RESEARCH</h2>
+    <br>
+    <p id="col-mat">Overview</p>
+    <br>
+    <p id="col-mat">Acadmic Research</p>
+    <br>
+    <p id="col-mat">Sponsered Research</p>
+    <br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+  <div class="column5">
+    <h2 class="col-head">CAMPUS LIFE</h2>
+    <br>
+    <p id="col-mat">Fests</p>
+    <br>
+    <p id="col-mat">Student Wellfare</p>
+    <br>
+    <p id="col-mat">Library</p>
+    <br>
+    <p id="col-mat">Sports</p>
+    <br>
+    <p id="col-mat">Hostels</p>
+    <br>
+    <p id="col-mat">Health Facilities</p>
+    <br><br><br><br><br>
+  </div>
+</div>
+
+</body>
+<footer>
+  
+  
+</footer>
+</html>
