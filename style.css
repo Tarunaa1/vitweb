@@ -247,7 +247,7 @@ to {opacity: 1}
     position: relative; 
     left: 260px;
     top: 30px;
-    background-image: url(/project 2/bulb.jpg);
+    background-image: url(bulb.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -285,32 +285,32 @@ to {opacity: 1}
     border-radius: 15px;
 }
 .div2-netflix{
-    background-image: url(/project 2/netflix.jpg);
+    background-image: url(netflix.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .div2-google{
-    background-image: url(/project 2/google.jpg);
+    background-image: url(google.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .div2-facebook{
-    background-image: url(/project 2/facebook.jpeg);
+    background-image: url(facebook.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .div2-micro{
-    background-image: url(/project 2/microsoft.png);
+    background-image: url(microsoft.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .div2-amazon{
-    background-image: url(/project 2/amazon.png);
+    background-image: url(amazon.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .div2-apple{
-    background-image: url(/project 2/apple.png);
+    background-image: url(apple.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -333,7 +333,7 @@ to {opacity: 1}
     position: relative; 
     left: 5px; 
     top: 25px;
-    background-image: url(/project 2/tick.png);
+    background-image: url(tick.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -354,7 +354,7 @@ to {opacity: 1}
     position: relative; 
     left: 70px; 
     top: 25px;
-    background-image: url(/project 2/ecofriendly.jpg);
+    background-image: url(ecofriendly.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -377,7 +377,7 @@ to {opacity: 1}
     position: relative; 
     left: 40px; 
     top: 10px;
-    background-image: url(/project 2/nirf.png);
+    background-image: url(nirf.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -394,7 +394,7 @@ to {opacity: 1}
     position: relative; 
     left: 20px; 
     top: 0px;
-    background-image: url(/project 2/placement.jpg);
+    background-image: url(placement.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -415,7 +415,7 @@ to {opacity: 1}
     height: 90px; 
     position: relative;
     left: 62px;
-    background-image: url(/project 2/uni.png);
+    background-image: url(uni.png);
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -435,7 +435,7 @@ to {opacity: 1}
 .left2-img{
     width: 110px; 
     height: 110px;
-    background-image: url(/project 2/globe.jpeg);
+    background-image: url(globe.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
@@ -457,7 +457,7 @@ to {opacity: 1}
     width: 100px; 
     top: 10px;
     height: 90px; 
-    background-image: url(/project 2/university.jpeg);
+    background-image: url(university.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -529,7 +529,7 @@ to {opacity: 1}
     position: relative; 
     left: 20px; 
     top: 40px;
-    background-image: url(/project 2/upce1.jpg);
+    background-image: url(upce1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -540,7 +540,7 @@ to {opacity: 1}
     position: relative; 
     left: 410px; 
     bottom: 283px;
-    background-image: url(/project 2/upce2.jpg);
+    background-image: url(upce2.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -608,7 +608,7 @@ ul{
     bottom: 1400px; 
     width: 500px; 
     height: 250px; 
-    background-image: url(/project 2/vitimi.jpeg);
+    background-image: url(vitimi.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
 }
