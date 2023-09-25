@@ -222,8 +222,9 @@ to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
 .prev, .next,.text {font-size: 11px}
+.slideshow-container{left:15rem;}
 }
 
 
