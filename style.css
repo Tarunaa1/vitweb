@@ -151,7 +151,8 @@ img {vertical-align: middle;}
 .slideshow-container {
 max-width: 62.5rem;
 position: relative;
-margin: 50rem;
+left: 13.25rem;
+margin: auto;
 }
 
 /* Next & previous buttons */
