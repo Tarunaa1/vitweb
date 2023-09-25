@@ -20,7 +20,7 @@
 
 .menu{
       height: 2.563rem;
-      width: 98rem;
+      width: 95rem;
       background-color: #9393e1;
       display: flex;
       justify-content: space-evenly;
@@ -149,7 +149,7 @@ img {vertical-align: middle;}
 }
 /* Slideshow container */
 .slideshow-container {
-max-width: 98rem;
+max-width: 62.5rem;
 position: relative;
 margin: auto;
 }
@@ -504,7 +504,7 @@ to {opacity: 1}
 /* page 3 */
 .bulletin {
     height: 25rem;
-    width: 98rem;
+    width: 95rem;
     background-color: pink;
     position: relative;
     bottom: 68.75rem;
@@ -652,7 +652,7 @@ ul {
 /* lastt  */
 #last{
     height: 28.9375rem; 
-    width: 98rem;
+    width: 95rem;
     background-color:#9393e1; 
     position: relative; 
     top: 62.5rem;
